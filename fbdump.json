@@ -1,0 +1,10 @@
+[
+{
+	"name": "Matti Meikäläinen",
+	"gender": "male",
+	"music": ["Prince", "Sanni", "PMMP", "Kiss"],
+	"tv": ["Gilmore Girls", "Blacklist", "Orange is the new black"],
+	"movies": ["Amelie", "Iron Man"],
+	"restaurants": ["Vapiano", "Manhattan Steakhouse", "McDonalds"]
+}
+]
