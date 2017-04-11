@@ -1,0 +1,58 @@
+[
+{
+	"name": "METKAn Edustajiston sääntömääräinen kevätkokous",
+	"month": "HUHTI",
+	"date": "20",
+    "time": "to 17:00",
+	"location": "Bulevardi Metropolia",
+	"city": "Helsinki"
+},
+{
+	"name": "YsäRisteily 2017",
+	"month": "HUHTI",
+	"date": "22",
+    "time": "su 13:00",
+	"location": "M/S Finlandia",
+	"city": "Helsinki"
+},
+{
+	"name": "METKAn Wiikon Wappu 2017 / METKAs Week of MayDay 2017",
+	"month": "HUHTI",
+	"date": "23",
+    "time": "su 13:00",
+	"location": "Kansalaistori",
+	"city": "Helsinki"
+},
+{
+	"name": "StadiRace 2017",
+	"month": "HUHTI",
+	"date": "23",
+    "time": "su 13:00",
+	"location": "Kansalaistori",
+	"city": "Helsinki"
+},
+{
+	"name": "Poikkitieteellinen Mölkky // Interdisciplinary Mölkky 2017",
+	"month": "HUHTI",
+	"date": "25",
+    "time": "ti 15:30",
+	"location": "Kaisaniemen Kenttä",
+	"city": "Helsinki"
+},
+{
+	"name": "TiksiAppro 2017",
+	"month": "HUHTI",
+	"date": "28",
+    "time": "pe 15:00",
+	"location": "Tikkurila",
+	"city": "Vantaa"
+},
+{
+	"name": "Kaivarin Wappu",
+	"month": "MAALIS",
+	"date": "1",
+    "time": "ma 9:00",
+	"location": "Kaivopuisto",
+	"city": "Helsinki"
+}
+]
