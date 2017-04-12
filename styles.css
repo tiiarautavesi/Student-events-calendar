@@ -1,0 +1,111 @@
+.bg {
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+body {
+    background-color: #429174;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0.1em 3em 2em 3em;
+    z-index: 1;
+}
+
+.row {
+    color: #429174;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Alice';
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Arsenal';
+    color: black;
+}
+
+hr {
+    margin-top: -1.7em;
+}
+
+nav {
+    position: absolute;
+    right: 20%;
+}
+
+.btn {
+    background-color: #429174;
+    outline: none !important;
+    border: none !important;
+    border-radius: 4px;
+    font-family: 'Nunito';
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 8px 10px 8px 10px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #3A7D64;
+    background-size: 20px;
+}
+
+i {
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-top: 0.6em;
+}
+
+.navitem {
+    background-color: #fff;
+    width: 110px;
+    height: 100px;
+    border-radius: 5px;
+    z-index: 0;
+}
+
+.nav {
+    position: absolute;
+    right: 16%;
+    top: 8em;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-shadow: 3.5px 3.5px #C8C8C8;
+}
+
+.content {
+    margin-top: 3em;
+}
+
+h2 {
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+iframe {
+    width: 100%;
+}
