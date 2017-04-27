@@ -7,44 +7,63 @@
     <title>Event calendar</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Alice|Arsenal|Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Arsenal|Nunito" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script defer src="functions.js"></script>
+    <script defer src="main.js"></script>
 </head>
 
-
- co
 <body>
-    <div class="bg">
+        
+            <ul class="nav">
+                <a href="index.html"><li><i class="fa fa-search" aria-hidden="true"></i> Events</li></a>
+                <a href="calendar.html"><li><i class="fa fa-calendar" aria-hidden="true"></i> Calendar</li></a>
+                <a href="history.html"><li><i class="fa fa-user" aria-hidden="true"></i> My Events
+                </li></a>
+            </ul>
         <div class="container">
-
-            <div class="nav">
-                <div class="navitem"><a href="index.html"><i class="fa fa-home fa-3x" aria-hidden="true"></i></a></div><br>
-                <div class="navitem"><a href="calendar.html"><i class="fa fa-calendar fa-3x" aria-hidden="true"></i></a></div><br>
-                <div class="navitem"><a href="history.html"><i class="fa fa-history fa-3x" aria-hidden="true"></i></a></div>
-            </div>
-
             <div class="row">
-                <h1>Student Events calendar</h1>
+                <hr>
+                <h1>Student Events Search</h1>
                 <hr>
             </div>
 
             <div class="content">
-                <h2>Events near Helsinki</h2>
-                
+                <div class="sos">
+                <h2>Events near </h2>
+                <select id="myCity">
+                    <option id="none">Choose location</option>
+                    <option id="Helsinki">Helsinki</option>
+                    <option id="Espoo">Espoo</option>
+                    <option id="Vantaa">Vantaa</option>
+                    <option id="Tampere">Tampere</option>
+                    <option id="Turku">Turku</option>
+                    <option id="Vaasa">Vaasa</option>
+                    <option id="Rovaniemi">Rovaniemi</option>
+                    <option id="Jyväskylä">Jyväskylä</option>
+                    <option id="Kuopio">Kuopio</option>
+                    
+                </select>
+                    <hr class="eihh">
+                </div>
+                <div class="sos">
+                    <h2>Specify your wants and needs: </h2>
+                    <form>
+                      <input type="radio" name="option1" value="all" checked> All 
+                      <input type="radio" name="option1" value="free"> Free
+                      <input type="radio" name="option1" value="cruise"> Cruise
+                    </form> 
+                    <hr class="eihh">
+                </div>
                 <div id="lista">
                     <div id="kuvat">
+                        <img src="img/metkanvappu.jpg">
                     </div>
                     <div id="events"></div>
                 </div>
             </div>
-
-
-
-
-
         </div>
-    </div>
+    <footer>&#169; Tiia Rautavesi 2017</footer>
 
 </body>
 
