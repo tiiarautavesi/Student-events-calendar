@@ -6,8 +6,47 @@
     <link rel="icon" href="img/logo.png">
     <title>Event calendar</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="calendar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Arsenal|Nunito" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script defer src="functions.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#oikeahelmi").click(function(){
+                $(".helmi").hide();
+                $(".maalis").show();
+            });
+            $("#vasenmaalis").click(function(){
+                $(".maalis").hide();
+                $(".helmi").show();
+            });
+            $("#oikeamaalis").click(function(){
+                $(".maalis").hide();
+                $(".huhti").show();
+            });
+            $("#vasenhuhti").click(function(){
+                $(".huhti").hide();
+                $(".maalis").show();
+            });
+            $("#oikeahuhti").click(function(){
+                $(".huhti").hide();
+                $(".touko").show();
+            });
+            $("#vasentouko").click(function(){
+                $(".touko").hide();
+                $(".huhti").show();
+            });
+            $("#oikeatouko").click(function(){
+                $(".touko").hide();
+                $(".kesa").show();
+            });
+            $("#vasenkesa").click(function(){
+                $(".kesa").hide();
+                $(".touko").show();
+            });
+        });
+        </script>
 </head>
 
 
@@ -27,9 +66,340 @@
                 <h1>Student Events Calendar</h1>
                 <hr>
             </div>
-
             <div class="content">
-                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=nsulkama%40gmail.com&amp;color=%231B887A&amp;src=fi.finnish%23holiday%40group.v.calendar.google.com&amp;color=%236B3304&amp;src=e_2_fi%23weeknum%40group.v.calendar.google.com&amp;color=%232952A3&amp;ctz=Europe%2FHelsinki" style="border-width:0" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+                <section class="helmi">
+            <ul class="erit1">
+                <li class="otsikko11">&#9664;</li>
+                <li class="otsikko11"> Helmikuu 2017 </li>
+                <li class="otsikko11" id="oikeahelmi">&#9654;</li>
+            </ul><br><br>
+                 
+            <ul class="viikonpaivat">
+                <li class="viikonpaiva">Maanantai</li>
+                <li class="viikonpaiva">Tiistai</li>
+                <li class="viikonpaiva">Keskiviikko</li>
+                <li class="viikonpaiva">Torstai</li>
+                <li class="viikonpaiva">Perjantai</li>
+                <li class="viikonpaiva">Lauantai</li>
+                <li class="viikonpaiva">Sunnuntai</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="ex-paiva">30</li>
+                <li class="ex-paiva">31</li>
+                <li class="paiva">1</li>
+                <li class="paiva">2</li>
+                <li class="paiva">3</li>
+                <li class="paiva">4</li>
+                <li class="paiva">5 <i class="fa fa-bell" aria-hidden="true"></i></li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">6</li>
+                <li class="paiva">7</li>
+                <li class="paiva">8</li>
+                <li class="paiva">9</li>
+                <li class="paiva">10</li>
+                <li class="paiva">11</li>
+                <li class="paiva">12</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">13</li>
+                <li class="paiva">14</li>
+                <li class="paiva">15</li>
+                <li class="paiva">16</li>
+                <li class="paiva">17</li>
+                <li class="paiva">18</li>
+                <li class="paiva">19</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">20</li>
+                <li class="paiva">21</li>
+                <li class="paiva">22</li>
+                <li class="paiva">23</li>
+                <li class="paiva">24</li>
+                <li class="paiva">25</li>
+                <li class="paiva">26</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">27</li>
+                <li class="paiva">28</li>
+                <li class="ex-paiva">1</li>
+                <li class="ex-paiva">2</li>
+                <li class="ex-paiva">3</li>
+                <li class="ex-paiva">4</li>
+                <li class="ex-paiva">5</li>
+            </ul>
+		</section>
+        <section class="maalis">
+            <ul class="erit1">
+                <li class="otsikko11" id="vasenmaalis">&#9664;</li>
+                <li class="otsikko11"> Maaliskuu 2017 </li>
+                <li class="otsikko11" id="oikeamaalis">&#9654;</li>
+            </ul>   <br><br>
+            <ul class="viikonpaivat">
+                <li class="viikonpaiva">Maanantai</li>
+                <li class="viikonpaiva">Tiistai</li>
+                <li class="viikonpaiva">Keskiviikko</li>
+                <li class="viikonpaiva">Torstai</li>
+                <li class="viikonpaiva">Perjantai</li>
+                <li class="viikonpaiva">Lauantai</li>
+                <li class="viikonpaiva">Sunnuntai</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="ex-paiva">27</li>
+                <li class="ex-paiva">28</li>
+                <li class="paiva">1</li>
+                <li class="paiva">2</li>
+                <li class="paiva">3</li>
+                <li class="paiva">4</li>
+                <li class="paiva">5</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">6</li>
+                <li class="paiva">7</li>
+                <li class="paiva">8</li>
+                <li class="paiva">9</li>
+                <li class="paiva">10</li>
+                <li class="paiva">11</li>
+                <li class="paiva">12</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">13</li>
+                <li class="paiva">14</li>
+                <li class="paiva">15</li>
+                <li class="paiva">16</li>
+                <li class="paiva">17</li>
+                <li class="paiva">18</li>
+                <li class="paiva">19</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">20</li>
+                <li class="paiva">21</li>
+                <li class="paiva">22</li>
+                <li class="paiva">23</li>
+                <li class="paiva">24</li>
+                <li class="paiva">25</li>
+                <li class="paiva">26</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">27</li>
+                <li class="paiva">28</li>
+                <li class="paiva">29</li>
+                <li class="paiva">30</li>
+                <li class="paiva">31</li>
+                <li class="ex-paiva">1</li>
+                <li class="ex-paiva">2</li>
+            </ul>
+		</section>
+        <section class="huhti">
+            <ul class="erit1">
+                <li class="otsikko11" id="vasenhuhti">&#9664;</li>
+                <li class="otsikko11"> Huhtikuu 2017 </li>
+                <li class="otsikko11" id="oikeahuhti">&#9654;</li>
+            </ul><br><br>
+            <ul class="viikonpaivat">
+                <li class="viikonpaiva">Maanantai</li>
+                <li class="viikonpaiva">Tiistai</li>
+                <li class="viikonpaiva">Keskiviikko</li>
+                <li class="viikonpaiva">Torstai</li>
+                <li class="viikonpaiva">Perjantai</li>
+                <li class="viikonpaiva">Lauantai</li>
+                <li class="viikonpaiva">Sunnuntai</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="ex-paiva">27</li>
+                <li class="ex-paiva">28</li>
+                <li class="ex-paiva">29</li>
+                <li class="ex-paiva">30</li>
+                <li class="ex-paiva">31</li>
+                <li class="paiva">1</li>
+                <li class="paiva">2</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">3</li>
+                <li class="paiva">4</li>
+                <li class="paiva">5</li>
+                <li class="paiva">6</li>
+                <li class="paiva">7</li>
+                <li class="paiva">8</li>
+                <li class="paiva">9 <i class="fa fa-bell" aria-hidden="true"></i></li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">10</li>
+                <li class="paiva">11</li>
+                <li class="paiva">12</li>
+                <li class="paiva">13</li>
+                <li class="paiva">14</li>
+                <li class="paiva">15</li>
+                <li class="paiva">16</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">17</li>
+                <li class="paiva">18</li>
+                <li class="paiva">19</li>
+                <li class="paiva">20</li>
+                <li class="paiva">21</li>
+                <li class="paiva">22</li>
+                <li class="paiva">23</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">24</li>
+                <li class="paiva">25</li>
+                <li class="paiva">26</li>
+                <li class="paiva">27 <i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li class="paiva">28</li>
+                <li class="paiva">29</li>
+                <li class="paiva">30</li>
+            </ul>
+		</section>
+        <section class="touko">
+            <ul class="erit1">
+                <li class="otsikko11" id="vasentouko">&#9664;</li>
+                <li class="otsikko11"> Toukokuu 2017 </li>
+                <li class="otsikko11" id="oikeatouko">&#9654;</li>
+            </ul><br><br>
+            <ul class="viikonpaivat">
+                <li class="viikonpaiva">Maanantai</li>
+                <li class="viikonpaiva">Tiistai</li>
+                <li class="viikonpaiva">Keskiviikko</li>
+                <li class="viikonpaiva">Torstai</li>
+                <li class="viikonpaiva">Perjantai</li>
+                <li class="viikonpaiva">Lauantai</li>
+                <li class="viikonpaiva">Sunnuntai</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva" id="demo" onclick="demoFunction()">1 <i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li class="paiva">2</li>
+                <li class="paiva">3</li>
+                <li class="paiva" id="demo2" onclick="demoFunction2()">4 <i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li class="paiva today">5</li>
+                <li class="paiva">6</li>
+                <li class="paiva">7</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">8</li>
+                <li class="paiva">9</li>
+                <li class="paiva">10</li>
+                <li class="paiva" onclick="demoFunction3()">11 <i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li class="paiva">12</li>
+                <li class="paiva" onclick="demoFunction4()">13 <i class="fa fa-bell" aria-hidden="true"></i></li>
+                <li class="paiva">14</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">15</li>
+                <li class="paiva">16</li>
+                <li class="paiva">17</li>
+                <li class="paiva">18</li>
+                <li class="paiva">19</li>
+                <li class="paiva">20</li>
+                <li class="paiva">21</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">22</li>
+                <li class="paiva">23</li>
+                <li class="paiva">24</li>
+                <li class="paiva">25</li>
+                <li class="paiva">26</li>
+                <li class="paiva">27</li>
+                <li class="paiva">28</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">29</li>
+                <li class="paiva">30</li>
+                <li class="paiva">31</li>
+                <li class="ex-paiva">1</li>
+                <li class="ex-paiva">2</li>
+                <li class="ex-paiva">3</li>
+                <li class="ex-paiva">4</li>
+            </ul>
+		</section>
+        <section class="kesa">
+            <ul class="erit1">
+                <li class="otsikko11" id="vasenkesa">&#9664;</li>
+                <li class="otsikko11"> Kesäkuu 2017 </li>
+                <li class="otsikko11" id="oikeakesa">&#9654;</li>
+            </ul><br><br>
+            <ul class="viikonpaivat">
+                <li class="viikonpaiva">Maanantai</li>
+                <li class="viikonpaiva">Tiistai</li>
+                <li class="viikonpaiva">Keskiviikko</li>
+                <li class="viikonpaiva">Torstai</li>
+                <li class="viikonpaiva">Perjantai</li>
+                <li class="viikonpaiva">Lauantai</li>
+                <li class="viikonpaiva">Sunnuntai</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="ex-paiva">29</li>
+                <li class="ex-paiva">30</li>
+                <li class="ex-paiva">31</li>
+                <li class="paiva">1</li>
+                <li class="paiva">2</li>
+                <li class="paiva">3</li>
+                <li class="paiva">4</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">5</li>
+                <li class="paiva">6</li>
+                <li class="paiva">7</li>
+                <li class="paiva">8</li>
+                <li class="paiva">9</li>
+                <li class="paiva">10</li>
+                <li class="paiva">11</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">12</li>
+                <li class="paiva">13</li>
+                <li class="paiva">14</li>
+                <li class="paiva">15</li>
+                <li class="paiva">16</li>
+                <li class="paiva">17</li>
+                <li class="paiva">18</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">19</li>
+                <li class="paiva">20</li>
+                <li class="paiva">21</li>
+                <li class="paiva">22</li>
+                <li class="paiva">23</li>
+                <li class="paiva">24</li>
+                <li class="paiva">25</li>
+            </ul>
+            <ul class="viikko1">
+                <li class="paiva">26</li>
+                <li class="paiva">27</li>
+                <li class="paiva">28</li>
+                <li class="paiva">29</li>
+                <li class="paiva">30</li>
+                <li class="ex-paiva">1</li>
+                <li class="ex-paiva">2</li>
+            </ul>
+            
+		</section>
+            <div>
+                <div id="demo-mat1" onclick="demoFunction()">
+                    <img src="img/metkanvappu.jpg">
+                    <p>Kaivarin Wappu<br>
+                    1 TOUKO - ma 9:00<br>
+                    Bulevardi Metropolia, Helsinki</p>
+                </div>
+                <div id="demo-mat2" onclick="demoFunction2()">
+                    <img src="img/leppa.jpg">
+                    <p>Leppävaaran Appro<br>
+                    4 TOUKO - to 16:00<br>
+                    Leppävaara, Espoo</p>
+                </div>
+                <div id="demo-mat3" onclick="demoFunction3()">
+                    <img src="img/kotib.jpg">
+                    <p>Kotibileet (Latory)<br>
+                        11 TOUKO - to 19:00<br>
+                        Vanha maantie 9, Espoo</p>
+                </div>
+                <div id="demo-mat4" onclick="demoFunction4()">
+                    <img src="img/vuju.jpg">
+                    <p>UIO ry vuosijuhlat - 9 vuotta<br>
+                        13 TOUKO - la 9:00<br>
+                        Sompiontie 4, Helsinki</p>
+                </div>
+            </div> 
             </div>
         </div>
     <footer>&#169; Tiia Rautavesi 2017</footer>

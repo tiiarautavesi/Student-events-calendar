@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Arsenal|Nunito" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script defer src="functions.js"></script>
-    <script defer src="main.js"></script>
 </head>
 
 
@@ -32,29 +31,20 @@
             </div>
             
             <fieldset><legend><h2>Upcoming Events</h2></legend>
-                <div id="kuvat">
-                    <img src="img/metkanvappu.jpg">
+                <div id="upcoming"></div>
+                <div id="upcoming2" style="display: none;">
+                    <ul><li>superkivat Synttärit 23v<p class="meta">Flemari 1  7. heinäkuuta 2017 kello 1:00 UTC+03 - 17. heinäkuuta 2017 kello 4:00 UTC+03<br />Osallistuu</p></li><li>RHCP * Helsinki, Finland * Kaisafest<p class="meta">Kaisaniemi, FI-00100 Helsinki, Suomi 29. heinäkuuta 2017 klo 19:00–22:00 UTC+02<br />Osallistuu</p></li><li>Flow Festival 2017<p class="meta">Suvilahti, Helsinki - Alkaa 11. elokuuta klo 15:30 ja päättyy 13. elokuuta klo 23:55<br />Osallistuu</p></li><li>Kaljakellunta 2017<p class="meta">Pikkukoski, Helsinki 27. elokuuta 2017 kello 16:00 UTC+03 - 29. toukokuuta 2017 kello 5:00 UTC+03<br />Osallistuu</p></li></ul>
                 </div>
-                <div id="events"></div>
-                <button>Show more <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
-            </fieldset>
-            
-            <fieldset><legend><h2>Events my Friends are interested in</h2></legend>
-                <div id="kuvat">
-                    <img src="img/metkanvappu.jpg">
-                </div>
-                <div  id="events">METKAn Wiikon Wappu 2017 / METKAs Week of MayDay 2017<br>
-                23 HUHTI - su 13:00<br>
-                Kansalaistori, Helsinki<br></div>
-                <button>Show more <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                <button id="more" onclick="showFunction()">Show more <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                <button id="less" onclick="showFunction()" style="display: none;">Show less <i class="fa fa-minus-circle" aria-hidden="true"></i></button>
             </fieldset>
             
             <fieldset><legend><h2>Event history</h2></legend>
-                <div id="kuvat">
-                    <img src="img/ha.jpg">
+                <div id="history">
+                    <ul><li>International High Heels Day<p class="meta">everywhere 28. toukokuuta 2010 kello 12:05 UTC+03 - 29. toukokuuta 2010 kello 7:05 UTC+03<br />Osallistuu</p></li><li>Earth Hour 2011<p class="meta">Everywhere 27. maaliskuuta 2011 kello 16:30 UTC+03 - 27. maaliskuuta 2011 kello 19:30 UTC+03<br />Osallistuu</p></li><li>SlutWalk Helsinki<p class="meta">Kokoontuminen Kiasman edessä klo 14. 7. elokuuta 2011 kello 0:00 UTC+03 - 7. elokuuta 2011 kello 3:00 UTC+03<br />Osallistuu</p></li><li>TORKKELIN NASUJATKOT !!!<p class="meta">Alppipuisto 3. syyskuuta 2011 kello 4:00 UTC+03 - 3. syyskuuta 2011 kello 9:30 UTC+03<br />Osallistuu</p></li></ul>
                 </div>
-                <div id="events">Helsinginkadun Appro 2017</div>
-                <button>Show more <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                <div id="history2"></div>
+                <button onclick="showFunction2()">Show more <i class="fa fa-plus-circle" aria-hidden="true"></i></button>
             </fieldset>
         </div>
     <footer>&#169; Tiia Rautavesi 2017</footer>

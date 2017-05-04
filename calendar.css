@@ -1,0 +1,429 @@
+section {
+    text-align: center;
+}
+
+body {
+    padding-top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+input[type=email], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ab8cc0;
+    border-radius: 33px;
+    float: center;
+    outline: none;
+}
+
+input[type=email]:focus {
+    border: 2px solid #986fb4;
+}
+
+input[type=password], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ab8cc0;
+    border-radius: 33px;
+    float: center;
+    outline: none;
+}
+
+input[type=password]:focus {
+    border: 2px solid #986fb4;
+}
+
+input[type=submit] {
+    width: 64%;
+    background-color: #ab8cc0;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    float: center;
+    border-radius: 33px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #986fb4;
+}
+
+button.button1 {
+	width: 64%;
+    background-color: #c8c8c8;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    float: center;
+    border-radius: 33px;
+    outline: none;
+}
+
+button.button1:hover {
+	background-color: #a8a8a8;
+}
+
+div.login {
+    text-align: center;
+    padding-top: 2em;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-bottom: 3em;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+    width: 100%;
+    display: block;
+}
+
+footer a:hover {
+    text-shadow: 1px 1px 0px #986fb4;
+}
+
+.ohje {
+    padding-left: 78%;
+    margin-top: -35px;
+    position: fixed;
+    width: 210px;
+    text-align: center;
+}
+.ohje i {
+    font-size: 50px;
+    background: #eedff8;
+    border-radius: 100px;
+    padding: 3px 6px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+}
+
+/* safari and chrome */
+@-webkit-keyframes wiggle {
+	0% {-webkit-transform:rotate(14deg);}
+	50% {-webkit-transform:rotate(-14deg);}
+	100% {-webkit-transform:rotate(14deg);}
+}
+ 
+/* firefox */
+@-moz-keyframes wiggle {
+	0% {-moz-transform:rotate(14deg);}
+	50% {-moz-transform:rotate(-14deg);}
+	100% {-moz-transform:rotate(14deg);}
+}
+ 
+/* anyone brave enough to implement the ideal method */
+@keyframes wiggle {
+	0% {transform:rotate(14deg);}
+	50% {transform:rotate(-14deg);}
+	100% {transform:rotate(14deg);}
+}
+
+.ohje i:hover {
+    -webkit-animation: wiggle 0.5s infinite;
+	-moz-animation: wiggle 0.5s infinite;
+	animation: wiggle 0.5s infinite;
+    cursor: pointer;
+}
+.ohjeet {
+    text-align: left;
+    display: none;
+    background: #eedff8;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+
+.ohjeet:before {
+    position: absolute;
+    margin-left: 75px;
+    margin-top: -1.3em;
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #eedff8;
+}
+
+button {
+    width: 100px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+button:hover {
+    box-shadow: 1px 1px 6px gray;
+}
+
+#dok1 {
+    color: #0f888c;
+    background: #8ee0e3;
+}
+
+#suun1 {
+    color: #8b0f8c;
+    background: #d7aed8;
+}
+
+.valikko {
+    list-style-type: none;
+    margin: auto;
+    margin-bottom: 1em;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 75%;
+    padding-top: 0.6em;
+    padding-left: 10%;
+    padding-right: 15%;
+    background-color: #eedff8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.valikko li {
+    color: white;
+    padding-bottom: 1em;
+    padding-top: 0.7em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px 10px 0px 0px;
+}
+.valikko li:hover{
+    background: white;
+    box-shadow:0px -3px 4px #ab8cc0;
+}
+
+.active {
+    background: white;
+    box-shadow: 0px -3px 4px #ab8cc0;
+}
+
+.logom {
+    margin-top: 8px;
+}
+
+.valikko i {
+    padding-right: 10px;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+.calendar {
+    width: 100%;
+    font-size: 26px;
+    padding-left: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+    opacity: 1;
+    padding-bottom: 0em;
+}
+
+ul.calendar:hover {
+    cursor: pointer;
+}
+
+li {
+    display: inline;
+}
+
+.otsikko11 {
+    padding-left: 2%;
+    padding-right: 1%;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+.otsikko11:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.viikonpaivat {
+    padding: 0;
+    width: 90%;
+    margin-top: 2px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: #b2c0d4;
+    padding: 10px;
+    border-bottom: 17px solid #b2c0d4;
+    color: black;
+}
+
+.viikonpaiva {
+    margin-top: 0;
+    margin-bottom: 0.5%;
+    display: inline-block;
+    width: 14%;
+    height: 0;
+    padding: 0 0 4%;
+    font-weight: 300;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+}
+
+.viikko1 {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    border-top: none;
+}
+
+.viikko1 i {
+    color: orange;
+    font-size: 80%;
+    -ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    transform: rotate(-9deg);
+}
+
+.paiva {
+    display: inline-block;
+    width: 14%;
+    height: 0;
+    padding: 3% 0 6%;
+    margin: 1% 0 1%;
+    font-weight: 300;
+    position: relative;
+    font-size: 16px;
+}
+
+.today {
+    background-color: #b2c0d4;
+}
+.ex-paiva {
+    display: inline-block;
+    width: 14%;
+    height: 0;
+    padding: 3% 0 6%;
+    margin: 1% 0 1%;
+    font-weight: 300;
+    position: relative;
+    font-size: 16px;
+    color: #d4d4d4;
+}
+
+.paiva:hover,
+.ex-paiva:hover {
+    background-color: #8ca1c0;
+    color: black;
+    cursor: pointer;
+}
+
+.erit1 {
+    width: 100%;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 1.5em;
+    margin-bottom: 0em;
+}
+
+.helmi,
+.huhti,
+.maalis,
+.kesa {
+    display: none;
+}
+
+.kalenteri666 {
+    width: 65%;
+}
+
+.kalenteri999 {
+    width: 33%;
+    background: lightgray;
+    padding: 3px;
+    padding-top: 0.6em;
+    float: right;
+    color: white;
+    margin-right: 3%;
+    margin-top: 3.3em;
+    text-align: center;
+}
+.kalenteri999 h1 {
+    padding: 0;
+    margin: 3px;
+    font-size: 100%;
+    text-shadow: 0px 0px 4px gray;
+}
+
+.kalenteri969 {
+    width: 96%;
+    background: white;
+    color: black;
+    float: right;
+    margin: 0;
+    padding: 2%;
+    margin-top: 0.6em;
+}
+
+/*DEMO IKKUNA*/
+
+#demo-mat1,
+#demo-mat2,
+#demo-mat3,
+#demo-mat4 {
+    display: none;
+    background: white;
+    position: absolute;
+    margin: auto;
+    padding: 1%;
+    border: 2px solid black;
+}
+
+#demo-mat1 {
+    margin-top: 200px;
+    margin-left: 10%;
+}
+
+#demo-mat2 {
+    margin-top: 200px;
+    margin-left: 40%;
+}
+
+#demo-mat3 {
+    margin-top: 350px;
+    margin-left: 40%;
+}
+
+#demo-mat4 {
+    margin-top: 350px;
+    margin-left: 55%;
+}
+
+#demo-mat1 img,
+#demo-mat2 img, 
+#demo-mat3 img, 
+#demo-mat4 img {
+    display: inline-block;
+    width: 200px;
+}

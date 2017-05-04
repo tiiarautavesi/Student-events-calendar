@@ -5,7 +5,10 @@
 	"date": "20",
     "time": "to 17:00",
 	"location": "Bulevardi Metropolia",
-	"city": "Helsinki"
+	"city": "Helsinki",
+    "category": "Free",
+    "kuvatus": "img/metkanvappu.jpg",
+    "link":"https://www.facebook.com/events/159999741190557/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A85212425532%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A85212425532%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
 },
 {
 	"name": "YsäRisteily 2017",
@@ -13,7 +16,10 @@
 	"date": "22",
     "time": "su 13:00",
 	"location": "M/S Finlandia",
-	"city": "Helsinki"
+	"city": "Helsinki",
+    "category": "Cruise",
+    "kuvatus": "img/ysari.png",
+    "link":"https://www.facebook.com/events/1402591323116635/?acontext=%7B%22source%22%3A5%2C%22page_id_source%22%3A85212425532%2C%22action_history%22%3A[%7B%22surface%22%3A%22page%22%2C%22mechanism%22%3A%22main_list%22%2C%22extra_data%22%3A%22%7B%5C%22page_id%5C%22%3A85212425532%2C%5C%22tour_id%5C%22%3Anull%7D%22%7D]%2C%22has_source%22%3Atrue%7D"
 },
 {
 	"name": "METKAn Wiikon Wappu 2017 / METKAs Week of MayDay 2017",
@@ -21,7 +27,10 @@
 	"date": "23",
     "time": "su 13:00",
 	"location": "Kansalaistori",
-	"city": "Helsinki"
+	"city": "Helsinki",
+    "category": "none",
+    "kuvatus": "img/metkanvappu.jpg",
+    "link":"https://www.facebook.com/events/228935027570905/?fref=ts"
 },
 {
 	"name": "StadiRace 2017",
@@ -29,7 +38,10 @@
 	"date": "23",
     "time": "su 13:00",
 	"location": "Kansalaistori",
-	"city": "Helsinki"
+	"city": "Helsinki",
+    "category": "none",
+    "kuvatus": "img/strace.jpg",
+    "link":"https://www.facebook.com/events/268660016911428/?fref=ts"
 },
 {
 	"name": "Poikkitieteellinen Mölkky // Interdisciplinary Mölkky 2017",
@@ -37,7 +49,10 @@
 	"date": "25",
     "time": "ti 15:30",
 	"location": "Kaisaniemen Kenttä",
-	"city": "Helsinki"
+	"city": "Helsinki",
+    "category": "none",
+    "kuvatus": "img/poikki.jpg",
+    "link":"https://www.facebook.com/events/1847604852194393/?fref=ts"
 },
 {
 	"name": "TiksiAppro 2017",
@@ -45,14 +60,65 @@
 	"date": "28",
     "time": "pe 15:00",
 	"location": "Tikkurila",
-	"city": "Vantaa"
+	"city": "Vantaa",
+    "category": "Appro",
+    "kuvatus": "img/tiksi.jpg",
+    "link":"https://www.facebook.com/events/851639571645931/?fref=ts"
+},
+{
+	"name": "Havis Amanda 2017",
+	"month": "HUHTI",
+	"date": "30",
+    "time": "su 17:00",
+	"location": "Kauppatori",
+	"city": "Helsinki",
+    "category": "Free",
+    "kuvatus": "img/havis.jpg",
+    "link":"https://www.facebook.com/events/105780949976831/122548828300043/?acontext=%7B%22ref%22%3A%2229%22%2C%22ref_notif_type%22%3A%22admin_plan_mall_activity%22%2C%22action_history%22%3A%22null%22%7D&notif_t=admin_plan_mall_activity&notif_id=1493717319952156"
 },
 {
 	"name": "Kaivarin Wappu",
-	"month": "MAALIS",
+	"month": "TOUKO",
 	"date": "1",
     "time": "ma 9:00",
 	"location": "Kaivopuisto",
-	"city": "Helsinki"
+	"city": "Helsinki",
+    "category": "none",
+    "kuvatus": "img/metkanvappu.jpg",
+    "link":"https://www.facebook.com/events/1906649046216875/?fref=ts"
+},
+{
+	"name": "Leppävaaran Appro",
+	"month": "TOUKO",
+	"date": "4",
+    "time": "to 16:00",
+	"location": "Leppävaara",
+	"city": "Espoo",
+    "category": "Appro",
+    "kuvatus": "img/leppa.jpg",
+    "link":"https://www.facebook.com/events/1182837058509065/?fref=ts",
+    "bailataan": "https://bailataan.fi/#!/events/37c27f4d-0d12-4cea-87b5-31c0ce3a5e9d"
+},
+{
+	"name": "Kotibileet (Latory)",
+	"month": "TOUKO",
+	"date": "11",
+    "time": "to 19:00",
+	"location": "Vanha maantie 9",
+	"city": "Espoo",
+    "category": "none",
+    "kuvatus": "img/kotib.jpg",
+    "link":"https://www.facebook.com/events/275745662871803/?fref=ts"
+},
+{
+	"name": "UIO ry vuosijuhlat - 9 vuotta",
+	"month": "TOUKO",
+	"date": "13",
+    "time": "la 9:00",
+	"location": "Sompiontie 4",
+	"city": "Helsinki",
+    "category": "none",
+    "kuvatus": "img/vuju.jpg",
+    "link":"https://www.facebook.com/events/264274640689289/?fref=ts"
 }
 ]

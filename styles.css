@@ -12,11 +12,10 @@ body {
     z-index: 1;
     background-color: white;
     margin: 2em 6em;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .row {
-    color: #225396;
     margin: 0;
     margin-top: 6em;
 }
@@ -73,16 +72,15 @@ i {
 
 .nav {
     position: absolute;
-    width: 70%;
     font-size: 130%;
     font-family: 'Nunito';
     text-transform: uppercase;
     letter-spacing: 1px;
     list-style-type: none;
     margin: auto;
-    width: 75%;
+    width: 72%;
     padding-top: 0.6em;
-    padding-left: 12%;
+    padding-left: 13%;
     padding-right: 15%;
     display: flex;
     justify-content: space-between;
@@ -148,20 +146,21 @@ iframe {
     padding-top: 2em;
 }
 
-#kuvat {
+#kuvaa {
     display: inline-block;
-    width: 35%;
+    width: 400px;
     margin-right: 1%;
 }
 
-#kuvat img {
-    width: 100%;
+#kuvaa img {
+    width: 400px;
 }
 
 #events {
     display: inline-block;
-    width: 62%;
+    width: 400px;
     font-family: 'Nunito';
+    padding-left: 20px;
     vertical-align: top;
 }
 
@@ -188,12 +187,6 @@ input {
     margin-left: 1em;
 }
 
-fieldset {
-    border: 2px solid black;
-    margin-top: 3em;
-    padding: 20px;
-    padding-bottom: 0;
-}
 
 hr {
     display: block;
@@ -234,4 +227,117 @@ button:hover {
     border: 2px solid black;
     border-bottom: none;
     color: black;
+}
+
+#carousel {
+    color: white;
+}
+
+.kiva {
+    height: 240px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.viiva {
+    border-bottom: 2px solid black;
+    padding-top: 20px;
+    height: 218px;
+    color: black;
+}
+
+/*history page*/
+
+#upcoming img {
+    width: 400px;
+}
+
+#upcoming li {
+    display: inline-block;
+    width: 44%;
+    padding: 2%;
+    margin: 1%;
+    margin-left: 0;
+    margin-right: 2%;
+    background: #b2c0d4;
+    height: 100px;
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#upcoming p {
+    text-transform: none;
+}
+
+#upcoming2 li {
+    display: inline-block;
+    width: 44%;
+    padding: 2%;
+    margin: 1%;
+    margin-left: 0;
+    margin-right: 2%;
+    background: #b2c0d4;
+    height: 100px;
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#upcoming2 p {
+    text-transform: none;
+}
+
+#friends img {
+    width: 400px;
+}
+
+#history img {
+    width: 50%;
+}
+
+#history li,
+#history2 li {
+    display: inline-block;
+    width: 44%;
+    padding: 2%;
+    margin: 1%;
+    margin-left: 0;
+    margin-right: 2%;
+    background: #b2c0d4;
+    height: 100px;
+    font-family: 'Nunito';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#history p,
+#history2 p {
+    text-transform: none;
+}
+
+#kuvat img {
+    width: 50%;
+}
+
+
+fieldset {
+    border: 2px solid black;
+    margin-top: 3em;
+    padding-bottom: 0;
+}
+/*end*/
+
+#twitter {
+    display: inline-block;
+    float: right;
+    border-left: 2px solid black;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.ikonit img {
+    height: 40px;
+    margin-right: 20px;
 }
